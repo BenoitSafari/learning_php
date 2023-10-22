@@ -1,0 +1,11 @@
+{
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "phpsab.snifferMode": "onType",
+    "phpsab.snifferShowSources": true,
+    "phpsab.autoRulesetSearch": true,
+    "phpsab.allowedAutoRulesets": [
+        "phpcs.xml"
+    ]
+}
