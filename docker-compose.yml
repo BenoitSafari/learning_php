@@ -14,7 +14,9 @@ services:
     environment:
       WORDPRESS_DB_HOST: "mysql"
     volumes:
-      - ./src:/var/www/html
+      - ./src/wordpress:/var/www/html
+      - ./src/plugins:/var/www/html/wp-content/plugins
+      - ./src/themes:/var/www/html/wp-content/themes
       - ./config/wordpress.ini:/usr/local/etc/php/conf.d/wordpress.ini
     depends_on:
       - mysql

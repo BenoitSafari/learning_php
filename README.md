@@ -1,11 +1,13 @@
 # Wordpress - WooCommerce template
 
 ## TODO
-- [x] Add Wordpress
-- [ ] Add WooCommerce
+- [x] **Add Wordpress to Docker-compose**
+- [ ] **Add WooCommerce plugin to Wordpress**
   - [ ] Install plugin
   - [ ] Configure plugin
     - See https://woocommerce.com/document/woopayments/startup-guide/
+
+- [ ] **Fix permission issue with VSCode editing volumes**
 
 ## Env
 Creates a `.env` file at project root and set the following variables
