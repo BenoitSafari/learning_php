@@ -1,8 +1,8 @@
 .env
 
 # Ignore base WordPress files
+src/.htaccess
 src/wp-admin
-src/wp-content
 src/wp-includes
 src/index.php
 src/license.txt
@@ -11,6 +11,8 @@ src/wp-activate.php
 src/wp-blog-header.php
 src/wp-comments-post.php
 src/wp-config-sample.php
+src/wp-config-docker.php
+src/wp-config.php
 src/wp-cron.php
 src/wp-links-opml.php
 src/wp-load.php

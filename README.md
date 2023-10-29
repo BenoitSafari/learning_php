@@ -1,4 +1,11 @@
-# learning_php
+# Wordpress - WooCommerce template
+
+## TODO
+- [x] Add Wordpress
+- [ ] Add WooCommerce
+  - [ ] Install plugin
+  - [ ] Configure plugin
+    - See https://woocommerce.com/document/woopayments/startup-guide/
 
 ## Env
 Creates a `.env` file at project root and set the following variables
