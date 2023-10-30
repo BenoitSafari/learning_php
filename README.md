@@ -7,7 +7,13 @@
   - [ ] Configure plugin
     - See https://woocommerce.com/document/woopayments/startup-guide/
 
-- [ ] **Fix permission issue with VSCode editing volumes**
+- [x] **Fix permission issue with VSCode editing volumes**
+
+## Developpment setup
+Run the following command on your host *(in project root)* to get write permission in your editor.
+```sh
+chmod -R 777 src
+```
 
 ## Env
 Creates a `.env` file at project root and set the following variables
